@@ -28,25 +28,8 @@ export default function Home() {
 
       <div className="">
         <h2 className="text-center text-3xl mb-10 text-buccaneer-200">
-          Our Products
+          Coming Soon
         </h2>
-        <div className="mb-32 w-3/4 mx-auto grid gap-4 justify-center text-center lg:mb-0 lg:grid-cols-3 lg:text-left">
-          <ProductCard
-            title="Doppler"
-            description="White Label Influencer AI Chatbot"
-            byline="Join waitlist!"
-          />
-          <ProductCard
-            title="JurisAI"
-            description="Legal Support Professionals Workflow Tool"
-            byline="Coming Soon!"
-          />
-          <ProductCard
-            title="RNote.ai"
-            description="Registered Nurse Workflow Tool"
-            byline="Coming Soon!"
-          />
-        </div>
       </div>
     </main>
   );
